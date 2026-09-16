@@ -69,3 +69,12 @@ There is no `package.json`, no npm scripts, and no test suite in this repo.
   handles todo text.
 - Any calls to the OpenRouter API must go over HTTPS and must not log or expose
   the API key (e.g., in console output or error messages).
+
+## Keeping this file up to date
+
+- Whenever a change is significant — new/removed/renamed files, new dependencies
+  or tooling, changes to how the app is run/tested, or new coding conventions —
+  update the relevant section(s) of this AGENTS.md in the same change.
+- Small, local edits that don't affect structure, dependencies, or conventions
+  (e.g. filling in a single `TODO Task N` stub as intended) do not require an
+  update.
